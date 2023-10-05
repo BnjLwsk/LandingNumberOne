@@ -1,0 +1,467 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1380px;
+    margin: 0 auto;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    width: 100%;
+}
+
+.site-name {
+    color: #121212;
+    font-weight: 700;
+    line-height: 23px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    max-width: 360px;
+    max-height: 13px;
+}
+
+.nav-text {
+    color: #21383E;
+    font-weight: 400;
+    line-height: 13px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.sign-up-btn {
+    border: 0 transparent;
+    background-color: transparent;
+    width: 53px;
+    height: 13px;
+    color: #553C16;
+    font-weight: 600;
+    line-height: 13px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    margin-right: 60px;
+    cursor: pointer;
+}
+
+.login-btn {
+    width: 160px;
+    height: 100px;
+    background-color: #F5F2EC;
+    border: 0 transparent;
+    border-bottom-left-radius: 30px;
+    color: #553C16;
+    font-weight: 600;
+    line-height: 13px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.main-container {
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.first-sub-section {
+    max-width: 498px;
+    max-height: 302px;
+    margin: 0 94px 96px 50px;
+}
+
+h1 {
+    color: #121212;
+    font-weight: 400;
+    line-height: 72px;
+    font-size: 60px;
+    letter-spacing: -0.5px;
+    max-width: 498px;
+    max-height: 216px;
+}
+
+.text-description {
+    color: #404852;
+    letter-spacing: 0.35px;
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 14px;
+    max-height: 78px;
+}
+
+.first-section-picture {
+    max-height: 390px;
+    max-width: 390px;
+}
+
+.first-section-picture:nth-of-type(1) {
+    margin: 10px 258px 0 70px;
+}
+
+.first-section-picture:nth-of-type(3) {
+    max-height: 502px;
+    max-width: 502px;
+}
+
+.first-section-picture:nth-of-type(4) {
+    max-height: 328px;
+    max-width: 328px;
+    margin-left: 390px;
+}
+
+.dot-picture {
+    max-width: 91.5px;
+    max-height: 101.5px;
+    margin-right: 48.5px;
+    margin-top: 23px;
+}
+
+.register-section {
+    position: absolute;
+    left: 50px;
+    top: 352px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 30px 80px 0px #2F415833;
+    border: 0 transparent;
+    max-height: 67px;
+    max-width: 682px;
+    padding: 28px 28px 28px 40px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.email-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.email-description {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.3px;
+    width: 196px;
+    height: 21px;
+    color: #7D8186;
+}
+
+#email {
+    color: #000000;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.23px;
+    border: 0 transparent;
+    width: 273px;
+    height: 30px;
+    margin: 10px 151px 0 0;
+}
+
+.register-btn {
+    background-color: #725BA1;
+    border-radius: 8px;
+    border: 0 transparent;
+    padding: 24px 64px 22px 65px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0.32px;
+    max-height: 67px;
+    max-width: 190px;
+    cursor: pointer;
+}
+
+.second-section {
+    margin: 0 120px 0 50px;
+    max-height: 866px;
+    max-width: 1190px;
+    display: flex;
+    flex-direction: row;
+}
+
+.second-sub-section {
+    margin: 160px 53px 0 0;
+    max-width: 441px;
+    max-height: 442px;
+}
+
+h2 {
+    color: #121212;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: -0.5px;
+}
+
+.line {
+    border: 1px solid;
+    color: #DEDEDE;
+    margin: 50px 0;
+    max-width: 121px;
+}
+
+.another-text-description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.35px;
+    color: #404852;
+    margin-bottom: 30px;
+}
+
+.owner-description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon {
+    max-width: 48px;
+    max-height: 48px;
+    margin-right: 16px;
+}
+
+.owner {
+    list-style: none;
+}
+
+.owner-name {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 13px;
+    letter-spacing: 0.3px;
+    color: #273240;
+    margin-bottom: 8px;
+}
+
+.owner-post {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.5px;
+    color: #2C3A4B;
+}
+
+.third-sub-section {
+    max-width: 696px;
+    max-height: 866px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.chat-message {
+    max-height: 66px;
+    max-width: 174px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    background-color: #7D6353;
+    border-radius: 25px 25px 0 25px;
+    padding: 14px 30px;
+    position: relative;
+    top: 171px;
+    left: 172px;
+    margin-right: 114px;
+}
+
+.second-section-picture {
+    max-height: 433px;
+    max-width: 348px;
+}
+
+.chat-answer {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+    background-color: #726985;
+    max-width: 96px;
+    max-height: 22px;
+    border-radius: 25px;
+    padding: 14px 30px;
+    margin-bottom: 12px;
+}
+
+.chat-answer:nth-of-type(2) {
+    max-width: 259px;
+    border-bottom-left-radius: 0;
+    margin: 0;
+}
+
+.messages {
+    position: relative;
+    top: 77px;
+    left: -83px;
+}
+
+.third-section {
+    position: relative;
+    margin: 60px 130px 150px 69px;
+    max-width: 1161px;
+    max-height: 650px;
+    display: flex;
+    flex-direction: row;
+}
+
+.third-section-picture {
+    margin-left: 101px;
+    max-width: 400px;
+    max-height: 650px;
+}
+
+.fourth-sub-section {
+    margin: 104px 0 104px 219px;
+}
+
+.call-container {
+    position: absolute;
+    top: 513px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 30px 80px 0 #2F415833;
+    background-color: #FFFFFF;
+    max-height: 77px;
+    max-width: 232px;
+    border-radius: 38px;
+    align-items: center;
+}
+
+.svg-picture {
+    margin: 8px;
+}
+
+.svg-camera {
+    position: absolute;
+    left: 29px;
+}
+
+.call-description {
+    max-width: 117px;
+    max-height: 33px;
+    margin: 22px 30px 22px 8px;
+}
+
+.nigger-picture {
+    position: absolute;
+    left: 361px;
+}
+
+.footer-container {
+    margin: 150px 130px 93px 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-first-section{
+    margin-right: 185px;
+    max-height: 243px;
+    max-width: 394px;
+}
+
+.footer-header {
+    max-height: 144px;
+    max-width: 342px;
+}
+
+.footer-description {
+    max-width: 394px;
+    max-height: 78px;
+    margin-top: 21px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.35px;
+}
+
+.list {
+    max-height: 1020px;
+    max-width: 600px;
+    list-style-type: none;
+    counter-reset: my-counter;
+}
+
+.item {
+    max-height: 153.5px;
+    max-width: 600px;
+    margin-bottom: 50.5px;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item:nth-of-type(5) {
+    border-bottom: 0 transparent;
+}
+
+.item::before {
+    content: "0" counter(my-counter);
+    counter-increment: my-counter;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 35px;
+    color: rgba(0, 0, 0, 0.4);
+    margin: 18px 84px 0 0;
+}
+
+.item-text-container {
+    margin-right: 118px;
+}
+
+.item-header {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0.83px;
+    max-height: 70px;
+    max-width: 348px;
+    margin-bottom: 10px;
+}
+
+.item-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 49.5px;
+}
+
+.footer-svg {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+}
